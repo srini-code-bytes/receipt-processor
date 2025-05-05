@@ -1,0 +1,48 @@
+# Node.js dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Build artifacts
+dist/
+build/
+out/
+coverage/
+
+# TypeScript
+*.tsbuildinfo
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+debug.log*
+logs/
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.iml
+
+# Jest
+jest.config.js
+coverage/
+*.test.ts.snap
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
+*.bak
